@@ -1,0 +1,248 @@
+[
+    {
+      "name": "Adv. Faheem Qureshi",
+      "location": "80 Feet Road, Ashoka Garden, Bhopal",
+      "services": ["General Lawyer", "Civil Lawyer"],
+      "phone": "+91 9876543210"
+    },
+    {
+      "name": "Adv. Rakesh Sharma",
+      "location": "Indrapuri, Bhopal",
+      "services": ["Bail Lawyer", "Criminal Defense"],
+      "phone": "+91 9123456780"
+    },
+    {
+      "name": "Adv. Priya Verma",
+      "location": "MP Nagar, Bhopal",
+      "services": ["Family Lawyer", "Divorce Lawyer"],
+      "phone": "+91 9012345678"
+    },
+    {
+      "name": "Adv. Amitabh Singh",
+      "location": "New Market, Bhopal",
+      "services": ["Property Disputes", "Land Cases"],
+      "phone": "+91 9898989898"
+    },
+    {
+      "name": "Adv. Neha Dubey",
+      "location": "Arera Colony, Bhopal",
+      "services": ["Consumer Court Lawyer", "Civil Matters"],
+      "phone": "+91 9080706050"
+    },
+    {
+      "name": "Adv. Manish Patel",
+      "location": "Kolar Road, Bhopal",
+      "services": ["Criminal Lawyer", "General Matters"],
+      "phone": "+91 9876501234"
+    },
+    {
+      "name": "Adv. Sneha Bhatt",
+      "location": "Shahpura, Bhopal",
+      "services": ["Family Disputes", "Child Custody"],
+      "phone": "+91 9823456789"
+    },
+    {
+      "name": "Adv. Ankit Tiwari",
+      "location": "Berasia Road, Bhopal",
+      "services": ["Bail Lawyer", "Criminal Defense"],
+      "phone": "+91 9912345678"
+    },
+    {
+      "name": "Adv. Pooja Sinha",
+      "location": "Habibganj, Bhopal",
+      "services": ["Civil Lawyer", "Matrimonial Cases"],
+      "phone": "+91 9865432109"
+    },
+    {
+      "name": "Adv. Vishal Saxena",
+      "location": "Chhola Road, Bhopal",
+      "services": ["Cheque Bounce", "Consumer Forum"],
+      "phone": "+91 9786543210"
+    },
+    {
+      "name": "Adv. Rajeev Pandey",
+      "location": "Piplani, Bhopal",
+      "services": ["Property Registration", "Document Verification"],
+      "phone": "+91 9765432108"
+    },
+    {
+      "name": "Adv. Meera Yadav",
+      "location": "Gulmohar Colony, Bhopal",
+      "services": ["Family Lawyer", "Divorce Lawyer"],
+      "phone": "+91 9678123456"
+    },
+    {
+      "name": "Adv. Deepak Sahu",
+      "location": "Narela Shankari, Bhopal",
+      "services": ["Land Disputes", "Property Lawyer"],
+      "phone": "+91 9543216780"
+    },
+    {
+      "name": "Adv. Shraddha Jain",
+      "location": "Govindpura, Bhopal",
+      "services": ["Medical Negligence", "Insurance Claims"],
+      "phone": "+91 9654321789"
+    },
+    {
+      "name": "Adv. Harshita Chouhan",
+      "location": "Misrod, Bhopal",
+      "services": ["Consumer Court Lawyer", "Cheque Bounce Cases"],
+      "phone": "+91 9123678456"
+    },
+    {
+      "name": "Adv. Rohit Namdeo",
+      "location": "Ayodhya Bypass, Bhopal",
+      "services": ["Criminal Lawyer", "Cyber Crime"],
+      "phone": "+91 9312456789"
+    },
+    {
+      "name": "Adv. Kavita Deshmukh",
+      "location": "Bittan Market, Bhopal",
+      "services": ["Civil Lawyer", "Bail Lawyer"],
+      "phone": "+91 9216543789"
+    },
+    {
+      "name": "Adv. Anurag Joshi",
+      "location": "BHEL, Bhopal",
+      "services": ["Corporate Lawyer", "Contract Drafting"],
+      "phone": "+91 9987654321"
+    },
+    {
+      "name": "Adv. Tanya Rawat",
+      "location": "Bawadia Kalan, Bhopal",
+      "services": ["Family Law", "Marriage Registration"],
+      "phone": "+91 9876234510"
+    },
+    {
+      "name": "Adv. Ashutosh Tripathi",
+      "location": "Karond, Bhopal",
+      "services": ["Labour Law", "Employee Disputes"],
+      "phone": "+91 9988745621"
+    },
+    {
+      "name": "Adv. Ritu Sharma",
+      "location": "Patel Nagar, Bhopal",
+      "services": ["Civil Lawyer", "Insurance Claims"],
+      "phone": "+91 9767845123"
+    },
+    {
+      "name": "Adv. Aditya Gupta",
+      "location": "Gandhi Nagar, Bhopal",
+      "services": ["Property Disputes", "Landlord-Tenant Issues"],
+      "phone": "+91 9867453210"
+    },
+    {
+      "name": "Adv. Shweta Mishra",
+      "location": "Maharana Pratap Nagar, Bhopal",
+      "services": ["Divorce Lawyer", "Family Settlements"],
+      "phone": "+91 9987456123"
+    },
+    {
+      "name": "Adv. Yashwant Singh",
+      "location": "Ashoka Garden, Bhopal",
+      "services": ["Criminal Lawyer", "General Cases"],
+      "phone": "+91 9654321098"
+    },
+    {
+      "name": "Adv. Anjali Soni",
+      "location": "Danish Nagar, Bhopal",
+      "services": ["Legal Notices", "Cheque Bounce"],
+      "phone": "+91 9643210876"
+    },
+    {
+      "name": "Adv. Pradeep Jha",
+      "location": "Jeet Nagar, Bhopal",
+      "services": ["Consumer Court", "Property Issues"],
+      "phone": "+91 9324567810"
+    },
+    {
+      "name": "Adv. Rameshwar Prasad",
+      "location": "Katara Hills, Bhopal",
+      "services": ["Family Law", "Legal Consultation"],
+      "phone": "+91 9876543021"
+    },
+    {
+      "name": "Adv. Supriya Chaturvedi",
+      "location": "Bagh Sewania, Bhopal",
+      "services": ["Divorce Lawyer", "Child Custody"],
+      "phone": "+91 9568741230"
+    },
+    {
+      "name": "Adv. Vipin Srivastava",
+      "location": "Bawadiya, Bhopal",
+      "services": ["Cyber Crime", "Criminal Cases"],
+      "phone": "+91 9345672180"
+    },
+    {
+      "name": "Adv. Gaurav Tiwari",
+      "location": "Gufa Mandir Road, Bhopal",
+      "services": ["Civil Cases", "Land Disputes"],
+      "phone": "+91 9234567810"
+    },
+    {
+      "name": "Adv. Shikha Sahu",
+      "location": "Shakti Nagar, Bhopal",
+      "services": ["Cheque Bounce Cases", "Consumer Disputes"],
+      "phone": "+91 9123678450"
+    },
+    {
+      "name": "Adv. Vishnu Yadav",
+      "location": "Subhash Nagar, Bhopal",
+      "services": ["Criminal Lawyer", "Bail Matters"],
+      "phone": "+91 9245678901"
+    },
+    {
+      "name": "Adv. Prerna Sahu",
+      "location": "Neelbad, Bhopal",
+      "services": ["Family Lawyer", "Legal Consultation"],
+      "phone": "+91 9012365478"
+    },
+    {
+      "name": "Adv. Chirag Thakur",
+      "location": "Saket Nagar, Bhopal",
+      "services": ["Labour Lawyer", "Industrial Disputes"],
+      "phone": "+91 9876123450"
+    },
+    {
+      "name": "Adv. Kritika Dubey",
+      "location": "Jawahar Chowk, Bhopal",
+      "services": ["Criminal Defense", "Civil Matters"],
+      "phone": "+91 9234567123"
+    },
+    {
+      "name": "Adv. Nikhil Soni",
+      "location": "Berasia, Bhopal",
+      "services": ["Property Lawyer", "Title Verification"],
+      "phone": "+91 9345678902"
+    },
+    {
+      "name": "Adv. Pankaj Kushwaha",
+      "location": "TT Nagar, Bhopal",
+      "services": ["Corporate Law", "Business Contracts"],
+      "phone": "+91 9223456789"
+    },
+    {
+      "name": "Adv. Piyush Dubey",
+      "location": "Shivaji Nagar, Bhopal",
+      "services": ["Cyber Crime", "Fraud Cases"],
+      "phone": "+91 9012785634"
+    },
+    {
+      "name": "Adv. Meenal Saxena",
+      "location": "Jahangirabad, Bhopal",
+      "services": ["Legal Documentation", "Property Issues"],
+      "phone": "+91 9101234567"
+    },
+    {
+      "name": "Adv. Kunal Sharma",
+      "location": "Idgah Hills, Bhopal",
+      "services": ["Family Disputes", "Divorce Settlements"],
+      "phone": "+91 9876512340"
+    },
+    {
+      "name": "Adv. Ananya Tiwari",
+      "location": "Lalghati, Bhopal",
+      "services": ["Criminal Lawyer", "General Litigation"],
+      "phone": "+91 9987654320"
+    }
+  ]

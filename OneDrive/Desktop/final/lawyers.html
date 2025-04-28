@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Lawyers List</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+      background-color: #eef2f5;
+    }
+    h1 {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+    #container {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: center;
+    }
+    .card {
+      background: white;
+      padding: 20px;
+      border-radius: 10px;
+      width: 280px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      transition: 0.3s;
+    }
+    .card:hover {
+      transform: translateY(-5px);
+    }
+    .card h2 {
+      font-size: 18px;
+      margin: 0 0 10px;
+      color: #333;
+    }
+    .card p, .card .services, .card .phone {
+      font-size: 14px;
+      color: #555;
+      margin: 5px 0;
+    }
+    #loadMore {
+      display: block;
+      margin: 30px auto;
+      padding: 12px 30px;
+      font-size: 16px;
+      background-color: #28a745;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: background 0.3s;
+    }
+    #loadMore:hover {
+      background-color: #218838;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Lawyers in Bhopal</h1>
+
+  <div id="container"></div>
+  <button id="loadMore">Load More</button>
+
+  <script>
+    let lawyers = [];
+    let currentIndex = 0;
+    const container = document.getElementById('container');
+    const loadMoreBtn = document.getElementById('loadMore');
+
+    // Fetch external JSON
+    fetch('lawyers.json')
+      .then(response => response.json())
+      .then(data => {
+        lawyers = data;
+        loadLawyers(); // load first batch
+      })
+      .catch(error => console.error('Error loading JSON:', error));
+
+    function loadLawyers() {
+      const nextLawyers = lawyers.slice(currentIndex, currentIndex + 10);
+      nextLawyers.forEach(lawyer => {
+        const card = document.createElement('div');
+        card.className = 'card';
+        card.innerHTML = `
+          <h2>${lawyer.name}</h2>
+          <p><strong>Location:</strong> ${lawyer.location}</p>
+          <div class="services"><strong>Services:</strong> ${lawyer.services.join(', ')}</div>
+          <div class="phone"><strong>Phone:</strong> ${lawyer.phone}</div>
+        `;
+        container.appendChild(card);
+      });
+
+      currentIndex += 10;
+
+      // Hide Load More if no more lawyers
+      if (currentIndex >= lawyers.length) {
+        loadMoreBtn.style.display = 'none';
+      }
+    }
+
+    loadMoreBtn.addEventListener('click', loadLawyers);
+  </script>
+
+</body>
+</html>
